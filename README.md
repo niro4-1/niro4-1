@@ -6,3 +6,7 @@ This project now supports `.cli-tool.yaml` configuration files. These files allo
 
 - Updated dependency to improve examples clarity.
 
+### Clarified Examples
+
+- Example 1: Usage of the CLI tool with clear parameters.
+- Example 2: Detailed explanation of expected outputs.
