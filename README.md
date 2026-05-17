@@ -17,4 +17,8 @@
    npm start
    ```
 
+### .cli-tool.yaml Support
+
+The project supports configuration through the `.cli-tool.yaml` file. Ensure to define your settings according to the documentation provided within the file for optimal functionality.
+
 For further configuration, refer to the `.cli-tool.yaml` documentation.
