@@ -1,8 +1,20 @@
-## CLI Tool Support
+## Setup Instructions
 
-This project now supports `.cli-tool.yaml` configuration files. These files allow users to customize tool behavior and settings easily. Refer to the documentation for more details on configuration options.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/niro4-1/niro4-1.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd niro4-1
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the application:
+   ```bash
+   npm start
+   ```
 
-### Updated Dependencies
-
-- Updated dependency to improve examples clarity.
-
+For further configuration, refer to the `.cli-tool.yaml` documentation.
