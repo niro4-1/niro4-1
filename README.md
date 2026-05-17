@@ -4,5 +4,4 @@ This project now supports `.cli-tool.yaml` configuration files. These files allo
 
 ### Updated Dependencies
 
-- Updated dependency to improve examples clarity.
-
+- Updated dependency to example-package version 6.0.2 for clearer examples in the README.
