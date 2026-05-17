@@ -1,3 +1,3 @@
-## Progress Bar
+## CLI Tool Support
 
-For long-running operations, implement a progress bar to enhance user experience. Use libraries like `tqdm` for Python or similar in other languages to visually indicate progress. This helps users understand the duration of operations and provides feedback on ongoing processes.
+This project now supports `.cli-tool.yaml` configuration files. These files allow users to customize tool behavior and settings easily. Refer to the documentation for more details on configuration options.
