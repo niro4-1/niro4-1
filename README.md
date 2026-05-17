@@ -37,3 +37,7 @@
 - If you encounter issues, ensure all dependencies are installed correctly.
 - Check the console for error messages and refer to the documentation for guidance.
 - For persistent issues, consider reaching out to the community or checking GitHub issues for similar problems.
+
+# Clarified Examples
+
+This section provides clearer examples for the usage of the tool, addressing the concerns raised in issue #5.
