@@ -21,4 +21,24 @@
 
 The project supports configuration through the `.cli-tool.yaml` file. Ensure to define your settings according to the documentation provided within the file for optimal functionality.
 
+### Example Commands
+
+1. **Start the application**:  
+   ```bash
+   npm start
+   ```
+   This command will launch the application in development mode.
+
+2. **Run tests**:  
+   ```bash
+   npm test
+   ```
+   This command will execute the test suite to ensure everything is functioning correctly.
+
+3. **Build for production**:  
+   ```bash
+   npm run build
+   ```
+   This command will create an optimized build of the application for production deployment.
+
 For further configuration, refer to the `.cli-tool.yaml` documentation.
