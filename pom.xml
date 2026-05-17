@@ -1,6 +1,5 @@
-<project>
-    <modelVersion>4.0.0</modelVersion>
+<dependency>
     <groupId>com.example</groupId>
-    <artifactId>your-artifact-id</artifactId>
-    <version>1.0-SNAPSHOT</version>
-</project>
+    <artifactId>config-parser</artifactId>
+    <version>latest-version</version>
+</dependency>
