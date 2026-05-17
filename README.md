@@ -41,4 +41,16 @@ The project supports configuration through the `.cli-tool.yaml` file. Ensure to 
    ```
    This command will create an optimized build of the application for production deployment.
 
+### Deployment Instructions
+
+To deploy the application:
+1. Build the application for production using:
+   ```bash
+   npm run build
+   ```
+2. Choose a hosting service (e.g., Heroku, Vercel, AWS).
+3. Follow the specific hosting service's instructions to upload the build directory.
+4. Ensure environment variables are set as needed for your application.
+5. Start the application on the hosting service.
+
 For further configuration, refer to the `.cli-tool.yaml` documentation.
