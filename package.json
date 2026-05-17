@@ -1,1 +1,1 @@
-{"scripts":{"check-updates":"npm outdated"}}
+{"scripts": {"check-updates": "npm outdated", "check-outdated": "npm outdated"}}
