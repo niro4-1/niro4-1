@@ -1,2 +1,2 @@
 cli-tool==latest
-tomllib==1.0.0
+tomllib==latest
