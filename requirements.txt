@@ -1,1 +1,1 @@
-toml-parser==latest
+tomllib==latest
