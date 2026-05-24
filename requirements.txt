@@ -1,1 +1,1 @@
-tomllib==latest
+cli-tool==latest
