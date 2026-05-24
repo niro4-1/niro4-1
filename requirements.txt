@@ -1,1 +1,10 @@
 toml-parser==latest
+# Updated Dependency
+
+This update bumps the relevant dependency to ensure better compatibility and performance.
+
+## Changes
+- Updated dependency version in requirements.txt
+
+## Related Issue
+- Issue #27: Unclear Examples in README
