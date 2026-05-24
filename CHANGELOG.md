@@ -7,3 +7,9 @@
 
 ### Changed
 - Updated dependencies to latest versions.
+
+### Breaking Changes
+- None
+
+### Related Issue
+- #17: Unclear README Examples
