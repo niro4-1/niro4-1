@@ -1,16 +1,24 @@
-## Error Handling
+# Setup Instructions
 
-In case of errors, the application will log error messages to the console. Specific error types include:
-- Validation Errors: Occur when input data does not meet the required format.
-- Connection Errors: Happen when the application cannot connect to external services.
-- Silent Parse Failures: Malformed TOML files may fail silently without logging an error. Ensure TOML files are correctly formatted to avoid this issue.
+## Prerequisites
+- Ensure you have the necessary dependencies installed.
 
-### Recovery Steps
-1. Check the console logs for specific error messages.
-2. Validate input data against the expected format.
-3. Ensure all external services are operational.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/cli-tool.git
+   cd cli-tool
+   ```
+2. Install required packages:
+   ```bash
+   npm install
+   ```
 
-### Common Troubleshooting Scenarios
-- If you encounter a validation error, review the input data for correctness.
-- For connection errors, verify network connectivity and service availability.
-- For silent parse failures, double-check the TOML file format for correctness.
+## Running the Application
+- To start the application, use:
+   ```bash
+   npm start
+   ```
+
+## Additional Configuration
+- Update configuration files as needed.
