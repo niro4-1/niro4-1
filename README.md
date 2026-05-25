@@ -1,21 +1,5 @@
-## .cli-tool.yaml Configuration
+# README
 
-The `.cli-tool.yaml` file is used to configure various options for the CLI tool. Below are the key configuration options you can set:
+## Clarification on FileNotFoundError
 
-- **config**: Path to the configuration file (default is `$HOME/.cli-tool.yaml`).
-- **verbose**: Enable verbose output for detailed logging.
-
-### Example
-```yaml
-config: /path/to/config
-verbose: true
-```
-
-### Clarification on 'FileNotFoundError'
-
-If you encounter a `FileNotFoundError`, ensure that the specified configuration file path exists and is accessible. Adjust the path in the configuration accordingly.
-
-Make sure to adjust the paths and options according to your needs.
-
-
-This update addresses issue #1.
+This section clarifies the occurrence of 'FileNotFoundError' in the context of our application. It typically indicates that a specified file could not be found during execution. Ensure that the file path is correct and that the file exists in the expected location.
