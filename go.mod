@@ -1,5 +1,5 @@
 module your-module-name
 
 require (
-	toml-parser latest
+	react v17.0.2
 )
