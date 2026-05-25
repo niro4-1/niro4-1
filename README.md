@@ -41,4 +41,16 @@ The project supports configuration through the `.cli-tool.yaml` file. Ensure to 
    ```  
    This command will create an optimized build of the application for production deployment.
 
+## Clarified Examples
+
+This section provides clearer examples for better understanding.
+
+### Example 1
+- Original: `foo()`
+- Clarified: `foo(param1, param2)`
+
+### Example 2
+- Original: `bar()`
+- Clarified: `bar(param1)`
+
 For further configuration, refer to the `.cli-tool.yaml` documentation.
