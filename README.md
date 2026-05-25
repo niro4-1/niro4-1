@@ -3,6 +3,7 @@
 In case of errors, the application will log error messages to the console. Specific error types include:
 - Validation Errors: Occur when input data does not meet the required format.
 - Connection Errors: Happen when the application cannot connect to external services.
+- Silent Parse Failures: Malformed TOML files may fail silently without logging an error. Ensure TOML files are correctly formatted to avoid this issue.
 
 ### Recovery Steps
 1. Check the console logs for specific error messages.
@@ -12,3 +13,4 @@ In case of errors, the application will log error messages to the console. Speci
 ### Common Troubleshooting Scenarios
 - If you encounter a validation error, review the input data for correctness.
 - For connection errors, verify network connectivity and service availability.
+- For silent parse failures, double-check the TOML file format for correctness.
