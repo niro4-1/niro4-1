@@ -12,3 +12,6 @@ verbose: true
 ```
 
 Make sure to adjust the paths and options according to your needs.
+
+
+This update addresses issue #1.
