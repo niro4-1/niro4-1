@@ -1,12 +1,20 @@
-## Error Handling
+## Clarification on FileNotFoundError
 
-When parsing TOML files, ensure to handle potential errors such as:
-- **Syntax errors**: Check for any mistakes in the TOML structure that could prevent parsing.
-- **Missing fields**: Ensure all required fields are present in the TOML file.
-- **Type mismatches**: Verify that the values match the expected types (e.g., strings, integers).
+This section clarifies the occurrence of 'FileNotFoundError' in the context of our application. It typically indicates that a specified file could not be found during execution. Ensure that the file path is correct and that the file exists in the expected location.
 
-Implement **try-catch blocks** to gracefully handle these errors and provide clear, informative messages to the user.
+### Example 1: Correct Usage
+```python
+# Example code that correctly handles file paths
+try:
+    with open('existing_file.txt', 'r') as file:
+        data = file.read()
+except FileNotFoundError:
+    print('File not found!')
+```
 
-# Upgrade tomllib
-
-This updates the tomllib package to the latest version.
+### Example 2: Incorrect Usage
+```python
+# Example code that raises FileNotFoundError
+with open('non_existing_file.txt', 'r') as file:
+    data = file.read()
+```
