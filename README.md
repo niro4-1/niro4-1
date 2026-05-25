@@ -11,6 +11,10 @@ config: /path/to/config
 verbose: true
 ```
 
+### Clarification on 'FileNotFoundError'
+
+If you encounter a `FileNotFoundError`, ensure that the specified configuration file path exists and is accessible. Adjust the path in the configuration accordingly.
+
 Make sure to adjust the paths and options according to your needs.
 
 
